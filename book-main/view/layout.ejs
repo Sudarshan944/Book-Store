@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 .cart-link i {
-    margin-right: 5px; /* Spacing between the cart icon and "Cart" text */
+    margin-right: 3px; /* Spacing between the cart icon and "Cart" text */
 }
 
     </style>
@@ -58,16 +58,15 @@ nav a:hover {
     <header>
         <nav>
             <ul>
-                <li><a href="/profile">Home</a></li>
-                <li><a href="/profile/get-books">Get Books</a></li>
-                <li><a href="/get-update-profile">Update Profile</a></li>
-        <!-- Cart link at the end -->
+                <li><a href="/profile"><i class="fa-solid fa-user"></i>&nbsp;Home</a></li>
+                <li><a href="/profile/get-books"><i class="fa-solid fa-book"></i>&nbsp;Get Books</a></li>
+                <li><a href="/get-update-profile"><i class="fa-solid fa-pen-nib"></i>&nbsp;Update Profile</a></li>
         <li style="display: flex;position: absolute;margin-top:0.1%;margin-left: 90%;">
         <a href="/my-cart" class="cart-link">
             <i class="fas fa-shopping-cart"></i>
             Cart
         </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/">Logout</a>
+        <a href="/"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;Logout</a>
         </li>
         </ul>
     </nav>
