@@ -4,7 +4,6 @@
 <head>
     <title>Login Admin</title>
     <style>
-        /* style.css */
 body {
     background-image: url("../static/addimg.png");
     background-size: cover;
@@ -19,13 +18,15 @@ body {
 }
 
 form {
-    background: lightgrey;
-    padding: 44px;
-    border-radius: 50px;
-    box-shadow: 5px 5px 5px black;
-    max-width: 500px;                
-    text-align: center;
-}
+                background: lavender;
+                padding: 20px;
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 10px 10px 15px rgb(160, 24, 99);
+                min-width: 400px;
+                max-width: 70px;                
+                text-align: center;
+            }
 
 h1 {
     color: #333;
@@ -34,7 +35,8 @@ h1 {
 input[type="email"],
 input[type="password"] {
     width: 100%;
-    padding: 10px;
+    padding: 3px;
+    height: 20px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -75,11 +77,9 @@ a:hover {
 
 <body>
     <form action="/verify-admin-login" method="POST">
-        <h1>Login Admin</h1>
-        <label for="email">Email:</label>
+        <h1>Admin Login</h1>
         <input type="email" id="email" name="email" placeholder="Enter your Email" required>
 
-        <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter your Password" required>
 
         <button>Login</button>

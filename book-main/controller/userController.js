@@ -3,6 +3,7 @@ const db = require("../config/db.js");
 const Books = require("../model/books");
 const mongoose = require("mongoose");
 const UserBook = require("../model/userBook");
+const Review = require("../model/Review");
 const bcrypt = require("bcrypt");
 
 // Render all books if the user is an admin
@@ -513,4 +514,29 @@ exports.updateBook = async (req, res) => {
     console.error("Error in updateBook:", err);
     res.status(500).send("Internal Server Error");
   }
+};
+
+exports.AddReview = async (req, res) => {
+  const bookId = req.body.book_id;
+  const reviewText = req.body.review;
+
+  // Validate the review data (e.g., check for empty reviewText)
+  if (!reviewText) {
+    res.status(400).send("Review text cannot be empty");
+    return;
+  }
+  const newReview = new Review({
+    bookId: bookId,
+    text: reviewText,
+  });
+
+  newReview
+    .save() // No callback provided, returns a Promise
+    .then(() => {
+      res.redirect("/my-cart");
+    })
+    .catch((err) => {
+      console.error("Error saving review:", err);
+      res.status(500).send("Error saving review");
+    });
 };

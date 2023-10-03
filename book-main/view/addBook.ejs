@@ -16,12 +16,12 @@
         }
 
         form {
-            background-color: white;
-            max-width: 400px;
-            margin: 20px auto;
-            padding: 62px;
+            background-color: lavenderblush;
+            max-width: 350px;
+            margin: 79px auto;
+            padding: 52px;
             border-radius: 50px;
-            box-shadow: 5px 5px 10px black;
+            box-shadow: 5px 5px 10px rgb(156, 43, 92);
         }
 
         h2 {
@@ -107,7 +107,7 @@ body {
     <%- include('layout_admin') %>
         <div class="all-books">
             <form action="/add-book" method="POST" onsubmit="showSuccessMessage()">
-                <h2>Add Books</h2>
+                <h2 style="margin: -15px 4px 16px -1px;">Add Books</h2>
                 <input type="text" name="image" placeholder="Enter Image Link" />
                 <input type="text" name="title" placeholder="Enter Book Title" />
                 <input type="text" name="author" placeholder="Enter Author Name" />

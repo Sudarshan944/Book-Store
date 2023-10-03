@@ -20,6 +20,9 @@
         }
 
         ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns */
             list-style-type: none;
             padding: 0;
         }
@@ -94,6 +97,12 @@
                     <p><strong>Quantity: </strong>
                         <%=i.quantity%>
                     </p>
+                    <form action="/add-review" method="POST">
+                        <input type="hidden" name="book_id" value="<%= i._id %>">
+                        <label for="review"><strong>Add a Review:</strong></label>
+                        <textarea id="review" name="review" rows="4" cols="50"></textarea>
+                        <button type="submit" id="submit-review">Submit Review</button>
+                    </form>
                     <form action="/update-quantity" method="POST">
                         <input type="hidden" name="book_data" value="<%= JSON.stringify(i) %>">
                         <label for="quantity"><strong>Update Quantity:</strong></label>

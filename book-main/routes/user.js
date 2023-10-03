@@ -37,6 +37,11 @@ Router.post("/logout", (req, res) => {
   });
 });
 
+// Import necessary modules and create an Express app
+
+// Handle the review submission
+Router.post("/add-review", userController.AddReview);
+
 // admin login
 Router.post("/verify-admin-login", userController.verifyAdminLogin);
 
