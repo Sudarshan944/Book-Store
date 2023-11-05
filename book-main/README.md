@@ -9,7 +9,7 @@
 
 \*\*--> you can see login page
 
-![Login Page](Login_Page.png)
+<img width="960" alt="Admin_Login_Page" src="https://github.com/Sudarshan944/Book-Store/assets/88623298/63f7bf34-7560-4aa0-8ae5-cf8ed462057e">
 
 \*\*--> Registration Page
 
