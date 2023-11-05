@@ -17,10 +17,10 @@
 
 ## -- While registering you must give userid as number(integer) ----
 
-# --> To see admin login click on admin login
+# --> Admin login
 
 <img width="960" alt="Admin_Login_Page" src="https://github.com/Sudarshan944/Book-Store/assets/88623298/63f7bf34-7560-4aa0-8ae5-cf8ed462057e">
 
 ## --admin login credentials should be verfied by admin given permission for testing to
-username : admin@gmail.com
-Password : password
+    username : admin@gmail.com
+    Password : password
