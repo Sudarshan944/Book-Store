@@ -19,7 +19,7 @@
 
 \*\*--> To see admin login click on admin login
 
-    ![Alt text](Admin_Login_Page.png)
+    ![Alt text](Admin_Login_Page.jpg)
 
 --admin login credentials should be verfied by admin given permission for testing to
 username : admin@gmail.com
