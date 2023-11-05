@@ -13,13 +13,13 @@
 
 \*\*--> Registration Page
 
-    ![Alt text](<Registration Page.png>)
+    ![Registration Page](https://github.com/Sudarshan944/Book-Store/assets/88623298/adb050ea-6c9f-426e-88bd-3072940d820b)
 
 -- While registering you must give userid as number(integer) ----
 
 \*\*--> To see admin login click on admin login
 
-    ![Alt text](Admin_Login_Page.jpg)
+    ![Alt text](Admin_Login_Page.png)
 
 --admin login credentials should be verfied by admin given permission for testing to
 username : admin@gmail.com
