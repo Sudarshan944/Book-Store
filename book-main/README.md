@@ -9,17 +9,17 @@
 
 \*\*--> you can see login page
 
-    ![image](Login_Page.png)
+![Alt text](Login_Page.png)
 
 \*\*--> Registration Page
 
-![Registration Page](https://github.com/Sudarshan944/Book-Store/assets/88623298/a80ac2d8-22b7-49f4-8282-e71808c3b4d5)
+![Registration Page](https://github.com/Sudarshan944/Book-Store/assets/88623298/adb050ea-6c9f-426e-88bd-3072940d820b)
 
 -- While registering you must give userid as number(integer) ----
 
 \*\*--> To see admin login click on admin login
 
-    ![Alt text](Admin_Login_Page.png)
+![Alt text](Admin_Login_Page.png)
 
 --admin login credentials should be verfied by admin given permission for testing to
 username : admin@gmail.com
