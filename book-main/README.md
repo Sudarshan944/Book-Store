@@ -9,7 +9,7 @@
 
 \*\*--> you can see login page
 
-    ![Alt text](Login_Page.png)
+    ![image](Login_Page.png)
 
 \*\*--> Registration Page
 
