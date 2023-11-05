@@ -13,7 +13,7 @@
 
 \*\*--> Registration Page
 
-    ![Registration Page](https://github.com/Sudarshan944/Book-Store/assets/88623298/adb050ea-6c9f-426e-88bd-3072940d820b)
+![Registration Page](https://github.com/Sudarshan944/Book-Store/assets/88623298/a80ac2d8-22b7-49f4-8282-e71808c3b4d5)
 
 -- While registering you must give userid as number(integer) ----
 
