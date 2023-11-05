@@ -19,7 +19,7 @@
 
 \*\*--> To see admin login click on admin login
 
-    ![Alt text](Admin_Login_Page.png)
+    <img width="960" alt="Admin_Login_Page" src="https://github.com/Sudarshan944/Book-Store/assets/88623298/ec4fea91-0702-465f-8781-40a007dfa50b">
 
 --admin login credentials should be verfied by admin given permission for testing to
 username : admin@gmail.com
